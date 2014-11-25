@@ -1,5 +1,7 @@
 #VagrantDocker
-First successful attempt at creating a Docker box with hybris preinstalled and configured on Vagrant. Requires virtualbox to be installed. WORK IN PROGRESS!
+------ WORK IN PROGRESS! -------
+First attempt at creating a Docker box with hybris preinstalled and configured on Vagrant. Requires virtualbox to be installed. 
+------ WORK IN PROGRESS! -------
 
 ####Setup Vagrant
 To run, simply type "vagrant up" in a terminal or command prompt window.
