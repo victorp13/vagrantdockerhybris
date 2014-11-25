@@ -12,7 +12,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
   config.vm.network "forwarded_port", guest: 9001, host:9001
   config.vm.provider "virtualbox" do |v|
-    v.memory = 1024
+    v.memory = 4096
     v.cpus = 4
   end
   config.vm.synced_folder "/hybris", "/vagrant/hybris"
